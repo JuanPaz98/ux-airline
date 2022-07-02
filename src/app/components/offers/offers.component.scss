@@ -1,0 +1,25 @@
+.container{
+    padding: 70px 63px;
+}
+.container__offers{
+    display: flex;
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        h3{
+            font-family: Roboto-bold;
+            text-align: left;
+            color: #247BA0;
+            font-size: 26px;
+        }
+    }
+    div:nth-child(2){
+        width: 100%;
+    }
+    hr{
+        width: 100%;
+        height: 0;
+        margin-left: 15px;
+    }
+}
